@@ -2,7 +2,6 @@ import { Router, Request, Response } from "express"
 import { getAllBooks, getBookById, createBook, updateBook, deleteBook } from "../controllers/controllers_book"
 
 
-
 const router = Router()
 
 router.get("/",getAllBooks)
